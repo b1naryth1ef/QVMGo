@@ -1,10 +1,7 @@
 Quick Start:
 
-6g qvm.go
-6g qvmd.go
-6g dar.go
-6g QVMDisas.go
-6l -o qvmd QVMDisas.6
-./qvmd [--syscalls <cg_syscalls.asm>] [--comments <comments.csv>] [cgame.qvm | cgame.dar]
+- Install Godag
+- Run make build
+- ./qvm [--syscalls <cg_syscalls.asm>] [--comments <comments.csv>] [cgame.qvm | cgame.dar]
 
 
